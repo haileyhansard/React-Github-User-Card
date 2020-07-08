@@ -41,7 +41,8 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <h1>GitHub User Card Information!</h1>
+        <h1>GitHub User Information</h1>
+        <h3>My Profile:</h3>
         <User data={this.state.user}/>
         <h3>Followers:</h3>
         <div>

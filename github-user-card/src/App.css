@@ -15,9 +15,37 @@
   color: white;
 }
 
-.user-card {
+.user-card{
+  background: rgb(153, 219, 167);
+  color: #282c34;
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  /* display:flex; */
+  /* flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start; */
+  margin: 5%; 
+}
+
+ p{
+  font-size: 1.3rem;
+  color: #282c34;
+}
+
+.follower-card {
   background: lightpink;
-  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5%;
 
 }
 

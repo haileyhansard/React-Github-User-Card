@@ -6,12 +6,13 @@ class User extends React.Component {
         console.log(this.props.data)
    
         return (
+            <div>
             <div className="user-card">
-                <h1>My Profile:</h1>
                 <h2>{this.props.data.name}</h2>
-                <h3>{this.props.data.location}</h3>
-                <h3>{this.props.data.bio}</h3>
+                <p>{this.props.data.location}</p>
+                <p>{this.props.data.bio}</p>
                 <img src={this.props.data.avatar_url} />
+            </div>
             </div>
         ); 
     }
